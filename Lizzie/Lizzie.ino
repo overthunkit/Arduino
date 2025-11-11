@@ -5,7 +5,7 @@
    -----------------------------------------------------------------------------
   - Overview: This code was written for the Lizard robot desigened by Sunfounder to test the servo and ir receiver module..
   - for Arduino Nano
-  - written with Arduino IDE 1.8.19 https://www.arduino.cc/en/software/
+  - written using Arduino IDE 1.8.19 https://www.arduino.cc/en/software/
   - IRremote ver 4.5.0 https://arduino-irremote.github.io/Arduino-IRremote/
 
    ---------------------------------------------------------------------------*/
@@ -50,6 +50,7 @@ void loop()
       }
   }
 }
+
 
 
 
