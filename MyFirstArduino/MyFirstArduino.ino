@@ -1,11 +1,22 @@
-/* -----------------------------------------------------------------------------
-  - Project:   My First Arduio
-  - Version Date:      2025/11/17a
-  - Author: Patrick Basten - Bastens.com 
-   -----------------------------------------------------------------------------
-  - Overview: This code was written for teaching arduino code
-  - hardware: Arduino Nano (Leonardo in IDE)
-   ---------------------------------------------------------------------------*/
+/*  ===============================================================================================
+    - Project:   My First Arduio
+    - Version Date:      2025/11/17a
+    - Author: Patrick Basten - Bastens.com 
+    ===============================================================================================
+    - Overview: This code was written for teaching arduino code
+    - hardware: Arduino Nano (Leonardo in IDE)
+    ===============================================================================================
+*/
+
+// ===============================================================================================
+// Arduino ProMini/Nano/UNO Notes:
+// External Interrupts: 2 and 3.
+// PWM: 3, 5, 6, 9, 10, and 11 (PWM does not work on pins 9 and 10 if using Servo.h)
+// Nano has 8 analog inputs, each of which provide 10 bits of resolution (i.e. 1024 different values)
+// Analog pins 6 and 7 cannot be used as digital pins
+// AREF. Reference voltage for the analog inputs. Used with analogReference()
+// use analog pins A0...A5 as digital pins by numbering them 14...19 
+// ===============================================================================================
 
 #include <Servo.h>
 Servo MyServo;
@@ -61,5 +72,6 @@ void loop()
   
   delay(2000);
 }
+
 
 
